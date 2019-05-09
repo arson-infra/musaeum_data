@@ -1,0 +1,1081 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Acoustics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Affective_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Agrophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Algebra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analytical_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Anatomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Anthropology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Art"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astrobiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astrochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astrophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Atmospheric_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Atmospherics_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Atomic_Molecular_and_Optical_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Behavioral_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bioengineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biogeography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bioinformatics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biolinguistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biomechanics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biotechnology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Botany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Branches_of_Knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cell_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cellular_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemical_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computational_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computational_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computational_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Hardware_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Condensed_Matter_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Conservation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Control_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cryobiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cryogenics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cultural_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Developmental_Bioloogy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Developmental_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Dynamics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ecology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Econophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electromagnetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electromagnetism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ethology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evolutionary_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evolutionary_Developmental_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evolutionary_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Flavor_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Flow_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Genetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Geochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Geophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Immunology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Inorganic_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Instrumental_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Logic_and_Foundations_of_Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Materials_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematical_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Matter_and_Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mechanics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Microbiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Molecular_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Molecular_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nanobiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neural_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroanatomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroethology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurogastronomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurogenetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroimaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroimmunology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroinformatics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurolinguistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurophysiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuropsychology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nuclear_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Number_Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Optics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organic_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organometallic_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Paleoneurobiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Parasitology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Particle_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Photochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physical_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Phytochemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Plasma_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Polymer_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Polymer_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Population_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Probability_Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Psychophysics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Quantum_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Quantum_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Relativity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Religion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Signal_Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Social_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sociobiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Configuration_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Economics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Models_and_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Solid_State_Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Solid_State_Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Statics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structural_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Synthetic_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Systems_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Systems_Neuroscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Telecommunications_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Theoretical_Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Toxicology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Trigonometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Zoology"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/coverage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.country-regions.fake/population"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.country-regions.fake/principaltown"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract_level"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Acoustics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Affective_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Agrophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Algebra"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analysis"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Analytical_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Anatomy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Anthropology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Art"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astrobiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astrochemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astronomy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Astrophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Atmospheric_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Atmospherics_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Atomic_Molecular_and_Optical_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Behavioral_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biochemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bioengineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biogeography"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bioinformatics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biolinguistics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biomechanics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Biotechnology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Botany"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Branches_of_Knowledge"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cell_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cellular_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemical_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Matter_and_Energy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Clinical_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computational_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computational_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computational_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Hardware_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Condensed_Matter_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Conservation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Control_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cryobiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cryogenics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Cultural_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Developmental_Bioloogy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Developmental_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Dynamics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ecology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Econophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electromagnetics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electromagnetism"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ethology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evolutionary_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evolutionary_Developmental_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evolutionary_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Flavor_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Flow_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Genetics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Geochemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Geometry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Geophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#History"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Immunology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Inorganic_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Instrumental_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Logic_and_Foundations_of_Mathematics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Materials_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematical_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Branches_of_Knowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Matter_and_Energy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mechanics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Microbiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Molecular_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Molecular_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nanobiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neural_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroanatomy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurochemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroethology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurogastronomy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurogenetics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroimaging"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroimmunology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroinformatics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurolinguistics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neurophysiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuropsychology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nuclear_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Number_Theory"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Optics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organic_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organometallic_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Paleoneurobiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Parasitology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Particle_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Photochemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physical_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Matter_and_Energy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Phytochemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Plasma_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Polymer_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Polymer_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Population_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Probability_Theory"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Psychophysics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Quantum_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Quantum_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Relativity"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Religion"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Signal_Processing"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Social_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Society"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sociobiology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Configuration_Management"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Construction"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Design"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Economics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Management"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Models_and_Methods"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Engineering_Process"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Maintenance"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Quality"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Requirements"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Software_Testing"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Computer_Software_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Solid_State_Chemistry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Chemistry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Solid_State_Physics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Statics"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Physics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Structural_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Synthetic_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Systems_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Systems_Neuroscience"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Neuroscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Technology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Science"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Telecommunications_Engineering"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Electronic_Engineering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Theoretical_Biology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Toxicology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Trigonometry"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mathematics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Zoology"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Life"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/coverage"/>
+        <IRI>http://en.wikipedia.org/wiki/Oxford</IRI>
+        <Literal>Oxfordshire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <IRI>http://en.wikipedia.org/wiki/Oxford</IRI>
+        <Literal>Wikipedia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <IRI>http://en.wikipedia.org/wiki/Oxford</IRI>
+        <Literal>Oxford</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.country-regions.fake/population"/>
+        <IRI>http://en.wikipedia.org/wiki/Oxford</IRI>
+        <Literal>10000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.country-regions.fake/principaltown"/>
+        <IRI>http://en.wikipedia.org/wiki/Oxford</IRI>
+        <IRI>http://www.country-regions.fake/oxford</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:abstract_level"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Branches_of_Knowledge</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
